@@ -143,9 +143,6 @@ function App() {
 
                   <div className="mt-12 space-y-5">
                     <div className="space-y-3">
-                      <p className="text-xs font-medium uppercase tracking-[0.28em] text-[#347775]">
-                        Custom Calculator
-                      </p>
                       <h1 className="max-w-xl text-3xl font-semibold leading-[1.08] tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-[3.25rem]">
                         Calculator for customized orders
                       </h1>
