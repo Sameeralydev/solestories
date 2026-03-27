@@ -5,19 +5,19 @@ export const ORDER_OPTIONS = [
     key: 'pattern-cutting',
     label: 'Pattern Cutting',
     price: 1500,
-    description: 'Tailored pattern work for a made-to-order silhouette and fit.',
+    description: 'Tailored pattern work for new designs.',
   },
   {
     key: 'material-hunting',
     label: 'Material Hunting',
     price: 500,
-    description: 'Sourcing support for a specific finish, texture, or requested material.',
+    description: 'Sourcing support for requested material.',
   },
   {
     key: 'special-material',
     label: 'Special Material',
     price: 1500,
-    description: 'Premium material handling for rare, custom-requested, or elevated finish selections.',
+    description: 'Premium materials that are actually hard to arrange.',
   },
   {
     key: 'special-size',
@@ -41,6 +41,6 @@ export const ORDER_OPTIONS = [
     key: 'wedge-sole',
     label: 'Wedge Sole',
     price: 1200,
-    description: 'Adds wedge sole construction to the final custom pair configuration.',
+    description: 'Stable wedge sole with added height.',
   },
 ];

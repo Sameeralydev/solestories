@@ -149,10 +149,11 @@ function App() {
                       <h1 className="max-w-xl text-3xl font-semibold leading-[1.08] tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-[3.25rem]">
                         Calculator for customized orders
                       </h1>
-                      <p className="max-w-xl text-sm leading-6 text-slate-600">
-                        Build your custom pair estimate with the same clean, crafted feel as the rest of
-                        SoleStories. Your total updates instantly as you select the finishing details you
-                        need.
+                      <p className="max-w-xl text-sm leading-6 text-slate-600 sm:hidden">
+                        Design your pair with instant pricing.
+                      </p>
+                      <p className="hidden max-w-xl text-sm leading-6 text-slate-600 sm:block">
+                        Design your pair with instant pricing.
                       </p>
                     </div>
 
@@ -165,7 +166,7 @@ function App() {
                           {currencyFormatter.format(BASE_PAIR_COST)}
                         </p>
                         <p className="mt-2 text-sm leading-6 text-slate-600">
-                          This amount is always included, even before any custom add-ons are selected.
+                          This is the starting price for each pair before any custom details are added.
                         </p>
                       </div>
 
@@ -190,7 +191,7 @@ function App() {
               <div className="absolute inset-x-8 top-5 h-24 rounded-full bg-[#74c0be]/20 blur-3xl" />
 
               <section className="relative rounded-[2.15rem] border border-white/70 bg-white/84 p-5 shadow-[0_35px_100px_rgba(70,126,124,0.18)] backdrop-blur sm:p-6 lg:p-7">
-                <div className="flex flex-col gap-3 border-b border-slate-900/8 pb-5 sm:flex-row sm:items-end sm:justify-between">
+                <div className="flex flex-col gap-3 border-b border-slate-900/8 pb-5">
                   <div>
                     <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[#347775]">
                       Options
@@ -199,9 +200,8 @@ function App() {
                       Customize your order
                     </h2>
                   </div>
-                  <p className="max-w-sm text-sm leading-6 text-slate-600">
-                    Prices stay hidden in the interface, but every selection is reflected in the total
-                    below.
+                  <p className="max-w-md text-sm leading-6 text-slate-600">
+                    Select the custom details you would like included in your pair.
                   </p>
                 </div>
 
